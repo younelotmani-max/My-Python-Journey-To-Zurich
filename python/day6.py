@@ -1,0 +1,23 @@
+goals=["Deutch" , "Google" , "zurich" , 13 , 36.43 ]
+print(goals[0])
+print(goals[-1])
+print(goals[1:4])
+goals[2]="ZURIKH"
+print(goals)
+goals.append("Maroc")
+print(goals)
+numbers=[1,3,2,9,19930,9,6,5]
+numbers.sort(reverse=True)
+print(numbers)
+goals.extend(numbers)
+goals.remove("Maroc")
+print(goals)
+numero=[1,3,1,3,1,5,5,1]
+print(numero.count(1))
+print(numero.index(1))
+numero=[1,3,1,3,1,5,5,1]
+copie=numero.copy()
+print(copie)
+numero.clear()
+print(numero)
+print(copie)
